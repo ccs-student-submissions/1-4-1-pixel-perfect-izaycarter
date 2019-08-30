@@ -6,19 +6,38 @@
 
 body{
     background-color: #F4F4F4;
-    width: 1920px;
+    width: 100%;
     margin-left: 0px;
     margin-top: 0px;
+    text-align: center;
 }
 
 a{
     text-decoration: none;
 }
 
+.nav-header-list{
+    display: inline-block;
+}
+
+.nav-header-link{
+    color: #AAAAAA;
+
+}
+
+.social_search-links{
+    display: inline-block;
+}
+
+.social_search-icon{
+    color: #AAAAAA;
+}
 
 .page-header{
     background: #FFF;
     width:100%;
+    height: 67px;
+    margin-bottom: 50px;
 }
 
 .nav-header-list{
@@ -30,11 +49,58 @@ a{
     display: inline-block;
 }
 
-.travel-container {
-    width:700px;
-    background-color: #FFF;
+.main-content{
+    display: inline-block;
 }
 
-.travel-container > img{
+.article {
+    width:700px;
+    background-color: #FFF;
+    text-align: center;
+    overflow: auto;
+}
+
+.article > img{
     width:100%;
 }
+
+.article-topic{
+    color: #0DBEEB
+}
+
+[value="CONTINUE READING"]{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    color: #1AD5FC;
+}
+
+.post-date{
+    display: inline-block;
+    padding-right: 150px;
+}
+
+.circels{
+    display: inline-block;
+    margin-left: 1px;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #EBEBEB;
+}
+
+.icons-in-circles{
+    vertical-align: middle;
+    color: #C2C2C2;
+}
+
+.footer-of-article{
+    margin: 10px 50px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 10px;
+    border-color: #EBEBEB;
+}
+/*-----------------------------  */
