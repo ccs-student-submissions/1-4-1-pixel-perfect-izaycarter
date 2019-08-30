@@ -6,10 +6,16 @@
 
 body{
     background-color: #F4F4F4;
-    width: 100%;
+    width: 1440px;
     margin-left: 0px;
     margin-top: 0px;
     text-align: center;
+}
+
+.main-content{
+    margin: auto;
+    display: flex;
+    width: 80%;
 }
 
 a{
@@ -35,9 +41,9 @@ a{
 
 .page-header{
     background: #FFF;
-    width:100%;
-    height: 67px;
-    margin-bottom: 50px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 37px;
 }
 
 .nav-header-list{
@@ -49,12 +55,14 @@ a{
     display: inline-block;
 }
 
-.main-content{
-    display: inline-block;
+.prime-content{
+    float: left;
+    margin: auto;
+    width: 49%;
+    margin-right: 90px;
 }
 
 .article {
-    width:700px;
     background-color: #FFF;
     text-align: center;
     overflow: auto;
@@ -62,6 +70,11 @@ a{
 
 .article > img{
     width:100%;
+}
+
+.article-content{
+    text-align: center;
+    overflow: auto;
 }
 
 .article-topic{
@@ -74,18 +87,20 @@ a{
     border: 1px solid #EBEBEB;
     background: #FFF;
     color: #1AD5FC;
+    font-size: 10px;
 }
 
 .post-date{
     display: inline-block;
-    padding-right: 150px;
+    padding-right: 110px;
+    font-size: 12px;
 }
 
 .circels{
     display: inline-block;
     margin-left: 1px;
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     background: white;
     border-radius: 50%;
     border: 1px solid #EBEBEB;
@@ -94,6 +109,7 @@ a{
 .icons-in-circles{
     vertical-align: middle;
     color: #C2C2C2;
+    font-size:10px;
 }
 
 .footer-of-article{
@@ -104,3 +120,24 @@ a{
     border-color: #EBEBEB;
 }
 /*-----------------------------  */
+
+.all-aside{
+    display: inline-block;
+}
+
+.aside-container{
+    width:350px;
+    background:#FFF;
+}
+
+.aside-article{
+
+}
+
+.round-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 5px white;
+
+}
