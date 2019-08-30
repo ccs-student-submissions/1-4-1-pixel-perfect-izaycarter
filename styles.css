@@ -4,10 +4,37 @@
     word-wrap: break-word;
 }
 
+body{
+    background-color: #F4F4F4;
+    width: 1920px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
 a{
     text-decoration: none;
 }
 
+
+.page-header{
+    background: #FFF;
+    width:100%;
+}
+
+.nav-header-list{
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav-header-list li{
     display: inline-block;
+}
+
+.travel-container {
+    width:700px;
+    background-color: #FFF;
+}
+
+.travel-container > img{
+    width:100%;
 }
