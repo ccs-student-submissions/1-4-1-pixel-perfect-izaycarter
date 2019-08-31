@@ -12,6 +12,20 @@ body{
     text-align: center;
 }
 
+.leading-font{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.lorem-font{
+    font-family: 'Merriweather', serif;
+    font-size: 11px;
+    padding-left: 30px;
+    padding-right: 40px;
+    line-height: 2;
+}
+
 .main-content{
     margin: auto;
     display: flex;
@@ -56,16 +70,25 @@ a{
 }
 
 .prime-content{
+    display: inline-block;
     float: left;
-    margin: auto;
+    margin-left: 148px;
     width: 49%;
-    margin-right: 90px;
 }
 
 .article {
     background-color: #FFF;
     text-align: center;
     overflow: auto;
+}
+
+.travel-article{
+    width: 562px;
+}
+
+.lifestyle{
+    margin-bottom: 31px;
+    padding-bottom: 20px;
 }
 
 .article > img{
@@ -92,15 +115,15 @@ a{
 
 .post-date{
     display: inline-block;
-    padding-right: 110px;
-    font-size: 12px;
+    padding-right: 65px;
+    font-size: 10px;
 }
 
 .circels{
     display: inline-block;
     margin-left: 1px;
-    width: 23px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
     background: white;
     border-radius: 50%;
     border: 1px solid #EBEBEB;
@@ -113,31 +136,99 @@ a{
 }
 
 .footer-of-article{
-    margin: 10px 50px;
+    margin: 14px 33px;
     border-top-width: 1px;
     border-top-style: solid;
     padding-top: 10px;
     border-color: #EBEBEB;
+    padding-bottom: 30px;
 }
 /*-----------------------------  */
 
 .all-aside{
     display: inline-block;
+    padding-left: 22px
 }
 
-.aside-container{
-    width:350px;
-    background:#FFF;
+.aside-leading-font{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-aside-container{
+    width: 269px;
+    background: #FFF;
+    text-align: center;
+    display: inline-block;
+    height: 380px;
+}
+.aside-container > img.source{
+    width:100%;
 }
 
 .aside-article{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+    padding-top: 59px;
+    line-height: 1.5;
+}
+
+.source{
+    background-image: url("images/author-cover.jpg");
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 135px;
 
 }
 
 .round-profile{
-    width: 150px;
-    height: 150px;
+    width: 132px;
+    height: 132px;
     border-radius: 50%;
-    border: solid 5px white;
+    border: solid 3px white;
+    position: absolute;
+    top: 57%;
+    right: 26%;
+}
+.aside-circles{
+    display: inline-block;
+    margin-left: 1px;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #EBEBEB;
+}
 
+.profile-aside-footer{
+
+}
+
+.pop-aside-florence{
+    display: inline-block;
+}
+
+.popular-aside{
+    margin-top: 29px;
+    width: 269px;
+    height: 774px;
+    background: white;
+}
+
+#opera-main-title{
+    padding-top: 20px;
+}
+
+.three-pop-img{
+    width: 223px;
+    height: 175px;
+}
+
+.pop-title{
+    font-family: 'Merriweather', serif;
+    font-size: 11px;
 }
