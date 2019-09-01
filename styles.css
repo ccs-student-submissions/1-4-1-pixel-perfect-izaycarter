@@ -146,7 +146,7 @@ a{
 /*-----------------------------  */
 
 .all-aside{
-    display: inline-block;
+    width:25%;
     padding-left: 22px
 }
 
@@ -161,7 +161,7 @@ a{
     background: #FFF;
     text-align: center;
     display: inline-block;
-    height: 380px;
+    height: 10.54%;
 }
 .aside-container > img.source{
     width:100%;
@@ -204,31 +204,189 @@ a{
     border: 1px solid #EBEBEB;
 }
 
+.three-pop-post{
+    width: 83%;
+    margin: auto;
+}
+
 .profile-aside-footer{
 
 }
 
-.pop-aside-florence{
+.pop-aside-content{
     display: inline-block;
 }
 
 .popular-aside{
     margin-top: 29px;
-    width: 269px;
-    height: 774px;
-    background: white;
+    width: 100%;
+    height: 21.85%;
+    background: #FFF;
 }
 
-#opera-main-title{
-    padding-top: 20px;
+#pop-main-title{
+    padding-top: 10%;
+    margin-bottom: 6%;
 }
 
 .three-pop-img{
-    width: 223px;
-    height: 175px;
+    width: 100%;
+    height: 170px;
 }
 
+
+.coffee-pop-article{
+margin-bottom: 8.3%;
+}
 .pop-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+}
+
+.pop-img-footer{
+    text-align: left;
+}
+
+.opera-title-tag{
+        margin-top: 2%;
+}
+.opera-footer{
+    border-bottom: 1px solid silver;
+    padding-bottom: 5%;
+    margin-bottom: 7.5%;
+}
+
+.pop-post-date{
     font-family: 'Merriweather', serif;
-    font-size: 11px;
+    font-size: 8px;
+}
+
+.coffee-title-tag{
+    margin-top: 3%;
+}
+.coffee-date{
+        margin-top: -1%;
+}
+.coffee-footer{
+    padding-bottom: 4%;
+    border-bottom: 1px solid silver;
+}
+
+.modern-title{
+    margin-top:3%;
+}
+/*-------------------------  */
+.latest-posts-aside{
+    width:100%;
+    height: 9.9%;
+    background-color: #FFF;
+    margin-top:12%;
+}
+
+.latest-posts-img{
+    width: 34%;
+    float: left;
+margin-right: 4%;
+}
+
+.first-posts-img{
+    height: 62px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.second-posts-img{
+    height: 53px;
+}
+
+.third-posts-img{
+    height:54px;
+}
+
+.forth-posts-img{
+    height: 54px;
+}
+
+#latest-title{
+    padding-top: 10%;
+    margin-top:0px;
+    font-size: 14px;
+}
+
+.latest-posts-block{
+    display: inline-block;
+    padding-left: 8%;
+    padding-right: 9%;
+}
+
+.latest-posts-info{
+    display: inline;
+    text-align: left;
+}
+
+.latest-posts-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.latest-oprea-title{
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-bottom: 6%;
+}
+
+.latest-modren-title{
+    margin-bottom: 3%;
+}
+
+.latest-macbook-title{
+    margin-bottom: 11%;
+}
+
+.latest-coffee-title{
+    margin-bottom:4%;
+}
+
+.latest-oprea-date{
+    font-family: 'Merriweather', serif;
+    padding-bottom: 4%;
+    font-size: 9px;
+    border-bottom: 1px solid silver;
+}
+
+.latest-modren-date{
+    font-family: 'Merriweather', serif;
+    padding-bottom: 14%;
+    font-size: 9px;
+    border-bottom: 1px solid silver;
+        margin-top: 3%;
+}
+
+.latest-macbook-date{
+    font-family: 'Merriweather', serif;
+    padding-bottom: 6.5%;
+    font-size: 9px;
+    border-bottom: 1px solid silver;
+}
+
+.latest-coffee-date{
+    font-family: 'Merriweather', serif;
+    padding-bottom: 4%;
+    font-size: 9px;
+}
+/*-----------------------------------------------  */
+
+.pinterest-aside{
+    width: 100%;
+    background-color: #FFF;
+    display: inline-block;
+    height:300px;
+    margin-top: 8.2%;
+}
+
+.pinterest-aside-title{
+    font-size: 13px;
+    padding-top: 19px;
 }
