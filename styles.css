@@ -102,6 +102,7 @@ a{
 
 #home-link{
     padding-left: 2%;
+    color: #00BFFA
 }
 
 .prime-content{
@@ -620,50 +621,50 @@ for footer put flex. back-ground-cover */
 
 .img-footer-1{
     background-image: url("images/best.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-2{
     background-image: url("images/contemp.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-3{
     background-image: url("images/design-min.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-4{
     background-image: url("images/house-design.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-5{
     background-image: url("images/interior-min.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-6{
     background-image: url("images/min-table.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-7{
     background-image: url("images/norway.jpeg");
-    width:12%;
-    height: 100%;
+    width:12.5%;
+    height: 180px;
 }
 
 .img-footer-8{
-    background-image: url("images/modren-farm.jpeg");
-    width:12%;
-    height: 100%;
+    background-image: url("images/modern-farm.jpeg");
+    width:12.5%;
+    height: 180px;
 }
 
 .copy-right{
@@ -672,3 +673,24 @@ for footer put flex. back-ground-cover */
     height: 36px;
     background-color: #222;
 }
+
+
+.img-on-hover{
+    position: relative;
+}
+
+.circels:hover{
+    background-color: #00BFFA;
+}
+
+.aside-circles:hover{
+    background-color: #00BFFA;
+}
+
+.icons-in-circles:hover{
+    color: #FFF;
+}
+
+.click-reading:hover{
+    background-color: #00BFFA;
+    color: #FFF;}
