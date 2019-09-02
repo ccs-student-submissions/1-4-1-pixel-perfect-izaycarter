@@ -38,15 +38,47 @@ a{
 
 .nav-header-list{
     display: inline-block;
+    margin: 1%;
+    margin-left: 12%;
+    float: left;
+    width: 28%;
 }
 
 .nav-header-link{
     color: #AAAAAA;
+    font-family: 'Open Sans', sans-serif;
+
 
 }
 
 .social_search-links{
     display: inline-block;
+    float: right;
+    margin-top: 1.3%;
+    margin-right: 19.3%;
+    font-size: 10px;
+    width: 14%;
+    padding-left: 0;
+}
+#facebook-top-link{
+    margin-right: 2%;
+    padding-left: 37%;
+}
+
+#twitter-top-link{
+    margin-right: 2%;
+}
+
+#google-top-link{
+    margin-right: 2%;
+}
+
+#instagram-top-link{
+    padding-right: 13%;
+}
+
+#search-top-link{
+    margin-left:2%;
 }
 
 .social_search-icon{
@@ -60,13 +92,16 @@ a{
     margin-bottom: 37px;
 }
 
-.nav-header-list{
-    margin: 0px;
-    padding: 0px;
-}
 
 .nav-header-list li{
     display: inline-block;
+    padding-left: 1%;
+    padding-right: 5%;
+    font-size: 9px;
+}
+
+#home-link{
+    padding-left: 2%;
 }
 
 .prime-content{
@@ -79,21 +114,65 @@ a{
 .article {
     background-color: #FFF;
     text-align: center;
-    overflow: auto;
+    overflow: hidden;
 }
 
+#florence-big{
+    margin-top: 4px;
+}
+
+#lifestyle-title{
+    margin-top: 4px;
+}
+
+#rocket-title{
+    margin-top: 4px;
+}
+
+#coffee-title{
+    margin-top:4px;
+}
+
+.lifestyle-title{
+    margin-top: 4px;
+}
 .travel-article{
-    width: 562px;
+    width: 100%;
+    height: 686px;
+    margin-bottom: 5.5%;
 }
 
-.lifestyle{
-    margin-bottom: 31px;
-    padding-bottom: 20px;
+.lifestyle-article{
+    margin-bottom: 34px;
 }
 
-.article > img{
+.food-article{
+    margin-bottom: 30px;
+}
+
+.rocket-article{
+    margin-bottom: 30px;
+}
+.travel-article > img{
     width:100%;
+    height: 52%;
 }
+
+.lifestyle-article > img{
+    width:100%;
+    height: 50%;
+}
+
+.food-article > img{
+    width:100%;
+    height: 52%;
+}
+
+.rocket-article > img{
+    width:100%;
+    height: 52%;
+}
+
 
 .article-content{
     text-align: center;
@@ -101,7 +180,11 @@ a{
 }
 
 .article-topic{
-    color: #0DBEEB
+    color: #0DBEEB;
+    text-transform: uppercase;
+    font-size: 9px;
+    padding-top: 3%;
+    margin-bottom: 0px;
 }
 
 [value="CONTINUE READING"]{
@@ -115,13 +198,14 @@ a{
 
 .post-date{
     display: inline-block;
-    padding-right: 65px;
+    padding-right: 130px;
+    padding-left: 0;
     font-size: 10px;
 }
 
 .circels{
     display: inline-block;
-    margin-left: 1px;
+    margin-left: 6px;
     width: 20px;
     height: 20px;
     background: white;
@@ -136,12 +220,46 @@ a{
 }
 
 .footer-of-article{
-    margin: 14px 33px;
+    margin: 23px 33px;
     border-top-width: 1px;
     border-top-style: solid;
     padding-top: 10px;
     border-color: #EBEBEB;
     padding-bottom: 30px;
+}
+
+.footer-of-lifestyle-article{
+    margin-top: 41px;
+        margin-bottom: 0;
+        margin-left: 33px;
+        margin-right: 33px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        padding-top: 10px;
+        border-color: #EBEBEB;
+        padding-bottom: 18px;
+}
+
+.footer-of-food-article{
+    margin-right: 23px;
+    margin-left: 23px;
+    margin-top: 43px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 10px;
+    border-color: #EBEBEB;
+    padding-bottom: 11px;
+}
+
+.footer-of-rocket-article{
+    margin-right: 23px;
+    margin-top: 37px;
+    margin-left: 23px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 10px;
+    border-color: #EBEBEB;
+    padding-bottom: 20px;
 }
 /*-----------------------------  */
 
@@ -157,11 +275,11 @@ a{
 }
 
 .profile-aside-container{
-    width: 269px;
+    width: 100%;
     background: #FFF;
     text-align: center;
     display: inline-block;
-    height: 10.54%;
+    height: 380px;
 }
 .aside-container > img.source{
     width:100%;
@@ -172,7 +290,7 @@ a{
     padding-left: 25px;
     padding-right: 25px;
     font-size: 13px;
-    padding-top: 59px;
+    padding-top: 81px;
     line-height: 1.5;
 }
 
@@ -220,7 +338,7 @@ a{
 .popular-aside{
     margin-top: 29px;
     width: 100%;
-    height: 21.85%;
+    height: 798px;
     background: #FFF;
 }
 
@@ -278,7 +396,7 @@ margin-bottom: 8.3%;
 /*-------------------------  */
 .latest-posts-aside{
     width:100%;
-    height: 9.9%;
+    height: 357px;
     background-color: #FFF;
     margin-top:12%;
 }
@@ -381,12 +499,176 @@ margin-right: 4%;
 .pinterest-aside{
     width: 100%;
     background-color: #FFF;
-    display: inline-block;
+    display: flex;
     height:300px;
-    margin-top: 8.2%;
+    margin-top: 11.2%;
+    align-items: center;
+     justify-content: center;
+     flex-direction: column;
 }
 
 .pinterest-aside-title{
     font-size: 13px;
-    padding-top: 19px;
+    display: flex;
+
+}
+
+.pinterest-feed{
+    width:83%;
+    height: 78%;
+    display: flex;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-position: center;
+}
+
+.pinterest-feed-img{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+}
+
+.pintrest-box-1{
+    content:"";
+    background-image: url("images/best.jpeg");
+    margin-top: 3%;
+    margin-right: 4%;
+    width: 31%;
+    height: 29.5%;
+}
+
+.pintrest-box-2{
+    content:"";
+    background-image: url("images/contemp.jpeg");
+    margin-right: 5%;
+    margin-top: 3%;
+    height: 29.5%;
+}
+
+.pintrest-box-3{
+    content:"";
+    background-image: url("images/design-min.jpeg");
+    height: 29.5%;
+    width: 30%;
+    margin-top: 3%;
+}
+
+.pintrest-box-4{
+    content:"";
+    background-image: url("images/house-design.jpeg");
+    height: 28.5%;
+    width: 31%;
+    margin-top: 3.1%;
+    margin-right: 4%;
+}
+
+.pintrest-box-5{
+    content:"";
+    background-image: url("images/interior-min.jpeg");
+    width: 31.1%;
+    height: 29.5%;
+    margin-right: 2.8%;
+
+}
+
+.pintrest-box-6{
+    content:"";
+    background-image: url("images/min-table.jpeg");
+    width: 31%;
+    height: 28.05%;
+    margin-top: 3%;
+}
+
+.pintrest-box-7{
+    content:"";
+    background-image: url("images/minimalist-house.jpeg");
+    width: 31.5%;
+    height: 29%;
+    margin-top: 2.37%;
+    margin-right: 4%;
+}
+
+.pintrest-box-8{
+    content:"";
+    background-image: url("images/modern-farm.jpeg");
+    width: 30.1%;
+    height: 28%;
+    margin-right: 4%;
+}
+
+.pintrest-box-9{
+    content:"";
+    background-image: url("images/norway.jpeg");
+    width: 30.41%;
+    height: 29.3%;
+    margin-bottom: 5%;
+}
+/* margin right margin bottom expect
+second margin
+
+for footer put flex. back-ground-cover */
+
+.img-footer-section{
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.img-footer-1{
+    background-image: url("images/best.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-2{
+    background-image: url("images/contemp.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-3{
+    background-image: url("images/design-min.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-4{
+    background-image: url("images/house-design.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-5{
+    background-image: url("images/interior-min.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-6{
+    background-image: url("images/min-table.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-7{
+    background-image: url("images/norway.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.img-footer-8{
+    background-image: url("images/modren-farm.jpeg");
+    width:12%;
+    height: 100%;
+}
+
+.copy-right{
+    width: 100%;
+    padding-top: 1px;
+    height: 36px;
+    background-color: #222;
 }
